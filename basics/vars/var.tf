@@ -39,3 +39,9 @@ output "cityop" {
 output "city_output" {
     value = "H1B interview held at ${var.city}"
 }
+
+variable "state" {}
+
+output "state_is" {
+    value = "chennai state is {var.state}"
+}
