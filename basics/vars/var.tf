@@ -27,5 +27,5 @@ variable sivmapping{
 }
 
 output H1B {
-    value = "Siva ${var.sivmapping[Visa]} inteview is in ${var.sivmapping[Location]}"
+    value = "Siva ${var.sivmapping["Visa"]} inteview is in ${var.sivmapping["Location"]}"
 }
