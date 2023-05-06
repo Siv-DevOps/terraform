@@ -43,5 +43,5 @@ output "city_output" {
 variable "state" {}
 
 output "state_is" {
-    value = "chennai state is {var.state}"
+    value = "chennai state is ${var.state}"
 }
