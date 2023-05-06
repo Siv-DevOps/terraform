@@ -37,5 +37,5 @@ output "cityop" {
 }
 
 output "city_output" {
-    value = "H1B interview held at ${var.city}"
+    value = H1B interview held at ${var.city}
 }
