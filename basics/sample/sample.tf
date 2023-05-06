@@ -4,3 +4,4 @@ output "sample" {
 output "test" {
   value       =  "test for Sai"
 }
+
