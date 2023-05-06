@@ -26,12 +26,12 @@ variable sivmapping{
     }
 }
 
-output H1B {
+output "H1B" {
     value = "Siva ${var.sivmapping["Visa"]} inteview is in ${var.sivmapping["Location"]}"
 }
 
 variable "city" {}
 
-output tfvar {
+output "tfvar" {
     value = var.city
 }
