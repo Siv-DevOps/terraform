@@ -16,5 +16,5 @@ variable "siv3"{
 }
 
 output "siv4" {
-    value = "this is to test my name siv${var.siv3[0]}"
+    value = "this is to test my name siv ${var.siv3[0]}"
 }
