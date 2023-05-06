@@ -36,6 +36,6 @@ output "cityop" {
     value = var.city
 }
 
-output city_output {
-    value = H1B interview held at ${var.city}
+output "city_output" {
+    value = "H1B interview held at ${var.city}"
 }
