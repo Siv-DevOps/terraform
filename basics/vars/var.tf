@@ -19,7 +19,7 @@ output "siv4" {
     value = "this is to test my name siv${var.siv3[0]}"
 }
 
-variable sivmapping{
+variable "sivmapping"{
     default ={
     Visa      = "H1B"
     Location  = "Chennai"         
@@ -32,6 +32,6 @@ output "H1B" {
 
 variable "city" {}
 
-output "tfvar" {
+output "cityop" {
     value = var.city
 }
