@@ -18,3 +18,14 @@ variable "siv3"{
 output "siv4" {
     value = "this is to test my name siv${var.siv3[0]}"
 }
+
+variable sivmapping{
+    default ={
+    Visa      = "H1B"
+    Location  = "Chennai"         
+    }
+}
+
+output H1B {
+    value = "Siva ${var.sivmapping[Visa]} inteview is in ${var.sivmapping[Location]}"
+}
