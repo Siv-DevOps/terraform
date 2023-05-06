@@ -12,7 +12,7 @@ output "sivs2" {
 
 
 variable "siv3"{
-    default = "[a,b,c,d]"
+    default = ["a","b","c","d"]
 }
 
 output "siv4" {
